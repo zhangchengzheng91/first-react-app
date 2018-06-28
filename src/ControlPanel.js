@@ -27,7 +27,6 @@ class ControlPanel extends Component {
 
   render() {
     const { state } = this.props
-    console.log('state=', state)
     return (
       <div>
         <Counter caption="First" />
